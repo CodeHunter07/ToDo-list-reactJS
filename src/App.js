@@ -1,9 +1,11 @@
-import Header from "./layout/Header";
-import Footer from "./layout/Footer";
-import Main from "./layout/Main";
+import Home from "./layout/Home";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
